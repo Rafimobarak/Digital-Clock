@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/588d1141-84a6-4216-95ca-1769661c21f7/dfx6blh-f9bdacb7-15a1-46a7-9cd3-ee63d4d4bce9.jpg/v1/fill/w_1095,h_730,q_70,strp/img_9259___copy_by_rafimobarak_dfx6blh-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODU0IiwicGF0aCI6IlwvZlwvNTg4ZDExNDEtODRhNi00MjE2LTk1Y2EtMTc2OTY2MWMyMWY3XC9kZng2YmxoLWY5YmRhY2I3LTE1YTEtNDZhNy05Y2QzLWVlNjNkNGQ0YmNlOS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.hqkrgO2jwam5O3WTCUWHBPZUz1zsRfRrrPUVO63ek0I);
+  background-size: cover;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+.clock div {
+  margin: 4px;
+}
+
+.clock span {
+  width: 100px;
+  height: 70px;
+  background: slateblue;
+  opacity: 0.8;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+}
+
+.clock .text {
+  height: 20px;
+  font-size: 8px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background: darkblue;
+  opacity: 0.8;
+}
+
+.clock #ampm {
+  bottom: 10;
+  position: absolute;
+  width: 70px;
+  height: 30px;
+  font-size: 20px;
+  background: green;
+}
